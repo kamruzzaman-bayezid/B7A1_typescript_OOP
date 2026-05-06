@@ -8,10 +8,12 @@ const filterEvenNumbers = (arr: number[]): number[] => {
   return evenNumberArray;
 };
 
+
 const reverseString = (str: string): string => {
   const reversedString = str.split("").reverse().join("");
   return reversedString;
 };
+
 
 type StringOrNumber = string | number;
 
@@ -23,10 +25,11 @@ const checkType = (input: StringOrNumber): string => {
   }
 };
 
+
+
 const getProperty = <T, K extends keyof T>(obj: T, key: K): T[K] => {
   return obj[key];
 };
-
 
 
 interface Book {
@@ -59,7 +62,6 @@ class Person {
   }
 }
 
-
 class Student extends Person {
   grade: string;
 
@@ -72,6 +74,7 @@ class Student extends Person {
     return `Name: ${this.name}, Age: ${this.age}, Grade: ${this.grade}`;
   }
 }
+
 
 
 const getIntersection = (arr1: number[], arr2: number[]): number[] => {
