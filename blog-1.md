@@ -1,4 +1,4 @@
-# Why is any labeled a "type safety hole," and why is unknown the safer choice for handling unpredictable data? Explain the concept of type narrowing.
+# কেন TypeScript-এ `any`-এর বদলে `unknown` ব্যবহার করা নিরাপদ?
 
 টাইপস্ক্রিপ্টে আমরা যখন নতুন কাজ শুরু করি, তখন মাঝেমধ্যেই এমন সিচুয়েশনে পড়তে হয় যে একটা ভ্যারিয়েবলের ডেটা আসলে কী আসবে সেটা আমরা শিওর হয়ে বলতে পারি না। তখন আমাদের মাথায় প্রথম বুদ্ধি আসে `any` দিয়ে দিই। কিন্তু এই `any` দেওয়া মানেই হলো নিজের পায়ে নিজে কুড়াল মারা। `any` দিয়ে কাজ করলে টাইপস্ক্রপ্ট এর আসল মজাটাই থাকলো না। এটা টাইপস্ক্রিপ্ট দিয়ে কাজ না করার সমান।
 

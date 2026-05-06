@@ -1,6 +1,5 @@
 
-
-# How do the four pillars of OOP—Inheritance, Polymorphism, Abstraction, and Encapsulation—help manage logic and reduce complexity in large-scale TypeScript projects?
+# TypeScript প্রজেক্টে OOP-এর চারটি পিলারের গুরুত্ব
 
 কোনো পেজেক্ট যদি ছোট হয় তাহলে সেটা যেকোনো ভাবে ম্যানেজ করা যায়। কোড যেভাবে খুশি লেখা যায়, কিন্তু প্রজেক্ট যখন বড় হতে থাকে তখন কোড মেইনটেইন করা কঠিন হয় বা কোনো টিমের সাথে কাজ করতে গেলে যদি কোড অর্গানাইজ না থাকে তাহলে বিভিন্ন সমস্যার সম্মুখিন হতে হয়। আর এই সমস্যার সমাধান দিতেই আছে **Object-Oriented Programming (OOP)**। আর এর ৪টি মেইন পিলার জানলে আপনার কোডিং লাইফ অনেক সহজ হয়ে যাবে।
 
