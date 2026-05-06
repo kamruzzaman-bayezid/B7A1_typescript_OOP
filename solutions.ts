@@ -9,10 +9,14 @@ const filterEvenNumbers = (arr: number[]): number[] => {
 };
 
 
+
+
 const reverseString = (str: string): string => {
   const reversedString = str.split("").reverse().join("");
   return reversedString;
 };
+
+
 
 
 type StringOrNumber = string | number;
@@ -27,9 +31,12 @@ const checkType = (input: StringOrNumber): string => {
 
 
 
+
 const getProperty = <T, K extends keyof T>(obj: T, key: K): T[K] => {
   return obj[key];
 };
+
+
 
 
 interface Book {
@@ -37,7 +44,6 @@ interface Book {
   author: string;
   publishedYear: number;
 }
-
 interface RBook {
   title: string;
   author: string;
@@ -45,11 +51,12 @@ interface RBook {
   isRead: boolean;
 }
 
-
 const toggleReadStatus = (obj: Book): RBook => {
   const isRead: boolean = true;
   return { ...obj, isRead };
 };
+
+
 
 
 class Person {
@@ -74,6 +81,8 @@ class Student extends Person {
     return `Name: ${this.name}, Age: ${this.age}, Grade: ${this.grade}`;
   }
 }
+
+
 
 
 
